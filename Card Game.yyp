@@ -146,7 +146,7 @@
             "Key": "77aa97e1-68e2-4782-87d3-38f0dce4bf02",
             "Value": {
                 "id": "c061ea4d-2ab0-4870-b0f4-5976ce0c4ab8",
-                "resourcePath": "objects\\game\\game.yy",
+                "resourcePath": "objects\\obj_game\\obj_game.yy",
                 "resourceType": "GMObject"
             }
         },

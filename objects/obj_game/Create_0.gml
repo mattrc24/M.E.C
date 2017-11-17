@@ -1,16 +1,18 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6FCE61FD
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "value_1" ""none""
 /// @DnDArgument : "var" "gamephase"
 /// @DnDArgument : "var_1" "cardselected"
 /// @DnDArgument : "var_2" "playercanmovecard"
 /// @DnDArgument : "var_3" "numcards"
+/// @DnDArgument : "var_4" "numtempcards"
 global.gamephase = 0;
 global.cardselected = "none";
 global.playercanmovecard = 0;
 global.numcards = 0;
+global.numtempcards = 0;
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
