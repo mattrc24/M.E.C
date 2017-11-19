@@ -1,25 +1,17 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 067B075D
-/// @DnDArgument : "expr" "10"
-/// @DnDArgument : "var" "tech"
-tech = 10;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 55D40EEC
-/// @DnDArgument : "expr" "20"
-/// @DnDArgument : "var" "spawn"
-spawn = 20;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 7784D6A2
-/// @DnDArgument : "var" "isturn"
-isturn = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 3F38AEDC
-/// @DnDArgument : "var" "deck"
-deck = 0;
+/// @DnDHash : 76491C70
+/// @DnDInput : 5
+/// @DnDArgument : "value" "10"
+/// @DnDArgument : "value_1" "20"
+/// @DnDArgument : "value_3" "-1"
+/// @DnDArgument : "var" "p2data.tech"
+/// @DnDArgument : "var_1" "p2data.spawn"
+/// @DnDArgument : "var_2" "p2data.playerreadyforcombat"
+/// @DnDArgument : "var_3" "p2data.deck"
+/// @DnDArgument : "var_4" "p2data.isturn"
+global.p2data.tech = 10;
+global.p2data.spawn = 20;
+global.p2data.playerreadyforcombat = 0;
+global.p2data.deck = -1;
+global.p2data.isturn = 0;

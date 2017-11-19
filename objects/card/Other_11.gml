@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Data Structures.Stack_Pop
+/// @DnDVersion : 1
+/// @DnDHash : 4F639A07
+/// @DnDArgument : "assignee" "cardmap"
+/// @DnDArgument : "var" "cardstack"
+cardmap = ds_stack_pop(cardstack);
+
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
 /// @DnDHash : 7FC1436A
