@@ -26,8 +26,14 @@ global.data = ds_map_create();
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
 /// @DnDHash : 0BE20413
-/// @DnDArgument : "var" "global.destroyed"
-global.destroyed = ds_list_create();
+/// @DnDArgument : "var" "global.p1destroyed"
+global.p1destroyed = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 453AA0DD
+/// @DnDArgument : "var" "global.p2destroyed"
+global.p2destroyed = ds_list_create();
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
