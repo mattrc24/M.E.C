@@ -55,8 +55,14 @@ global.hand = ds_list_create();
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
 /// @DnDHash : 08ECF83F
-/// @DnDArgument : "var" "global.combatlane"
-global.combatlane = ds_list_create();
+/// @DnDArgument : "var" "global.p1combatlane"
+global.p1combatlane = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 1F1D2E50
+/// @DnDArgument : "var" "global.p2combatlane"
+global.p2combatlane = ds_list_create();
 
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
@@ -69,6 +75,12 @@ global.deck = ds_list_create();
 /// @DnDHash : 381835CD
 /// @DnDArgument : "var" "global.enemycombatlane"
 global.enemycombatlane = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 7271E3B8
+/// @DnDArgument : "var" "global.enemybaselane"
+global.enemybaselane = ds_list_create();
 
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
