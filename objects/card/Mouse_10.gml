@@ -709,6 +709,14 @@ if (l6EF5B93D_0)
 			/// @DnDDisabled : 1
 			/// @DnDParent : 3B278C56
 			/// @DnDArgument : "event" "4"
+		
+		
+			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+			/// @DnDVersion : 1
+			/// @DnDHash : 73C4308C
+			/// @DnDParent : 3B278C56
+			/// @DnDArgument : "msg" ""pickup attempted" + game"
+			show_debug_message(string("pickup attempted" + game));
 		}
 	}
 }
