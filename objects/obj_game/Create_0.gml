@@ -23,6 +23,12 @@ global.PlayerNumber = -1;
 /// @DnDArgument : "var" "global.data"
 global.data = ds_map_create();
 
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 0BE20413
+/// @DnDArgument : "var" "global.destroyed"
+global.destroyed = ds_list_create();
+
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
 /// @DnDHash : 0F31C65A
