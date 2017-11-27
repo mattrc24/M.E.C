@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "019e7426-e50b-43b1-86ed-7c6ec7ddcad6",
+            "Value": {
+                "id": "251d326c-0e15-43ba-add8-858d9f02f9e1",
+                "resourcePath": "scripts\\scr_shuffle_deck\\scr_shuffle_deck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0202b1e2-3edd-4c35-93d2-887980919a0a",
             "Value": {
                 "id": "26b09fcb-cc64-4a6a-9998-d1cae625a590",
@@ -60,6 +68,14 @@
                 "id": "6a722e5b-dd84-4cf2-bb42-aeb15282c55c",
                 "resourcePath": "views\\0bf6ee02-d5db-4142-be74-8569a55518a9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "151b508f-43f1-4cd3-a0de-f240006d6e94",
+            "Value": {
+                "id": "b08b8ccf-2a00-4ee6-a795-825858714856",
+                "resourcePath": "scripts\\scr_create_deck\\scr_create_deck.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "9357a085-6178-4195-b45d-d6ffee0f6583",
+            "Value": {
+                "id": "6496708e-2115-4945-81c5-490aede3a2ce",
+                "resourcePath": "scripts\\scr_create_player_with_deck\\scr_create_player_with_deck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "987a1450-0fdc-4a38-9714-4f4e528be458",
             "Value": {
                 "id": "d5e93622-2724-4e61-80f0-ea9bbfc3afc1",
@@ -384,7 +408,10 @@
         }
     ],
     "script_order": [
-        "18d2074a-c56f-48d5-ad9a-b201e246dc83"
+        "18d2074a-c56f-48d5-ad9a-b201e246dc83",
+        "151b508f-43f1-4cd3-a0de-f240006d6e94",
+        "9357a085-6178-4195-b45d-d6ffee0f6583",
+        "019e7426-e50b-43b1-86ed-7c6ec7ddcad6"
     ],
     "tutorial": ""
 }

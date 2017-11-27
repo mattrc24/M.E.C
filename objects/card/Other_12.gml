@@ -10,10 +10,10 @@ var tmp = ds_map_find_value(data, sprite);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 0FF4EFB7
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "sprite"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, sprite, tmp);
+ds_map_replace(global.tmpdata, sprite, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -27,10 +27,10 @@ var tmp = ds_map_find_value(data, name);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 77D90E99
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "name"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, name, tmp);
+ds_map_replace(global.tmpdata, name, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -44,10 +44,10 @@ var tmp = ds_map_find_value(data, atk);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 644E96D5
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "atk"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, atk, tmp);
+ds_map_replace(global.tmpdata, atk, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -61,10 +61,10 @@ var tmp = ds_map_find_value(data, hpmax);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 527C1CD9
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "hpmax"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, hpmax, tmp);
+ds_map_replace(global.tmpdata, hpmax, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -78,10 +78,10 @@ var tmp = ds_map_find_value(data, hp);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 6451E230
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "hp"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, hp, tmp);
+ds_map_replace(global.tmpdata, hp, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -95,10 +95,10 @@ var tmp = ds_map_find_value(data, spawncost);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 48B8946C
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "spawncost"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, spawncost, tmp);
+ds_map_replace(global.tmpdata, spawncost, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -112,10 +112,10 @@ var tmp = ds_map_find_value(data, techcost);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 31AB64EC
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "techcost"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, techcost, tmp);
+ds_map_replace(global.tmpdata, techcost, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -129,10 +129,10 @@ var tmp = ds_map_find_value(data, spawngen);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 207209BB
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "spawngen"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, spawngen, tmp);
+ds_map_replace(global.tmpdata, spawngen, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -146,10 +146,10 @@ var tmp = ds_map_find_value(data, techgen);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 3DA50BA0
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "techgen"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, techgen, tmp);
+ds_map_replace(global.tmpdata, techgen, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -163,10 +163,10 @@ var tmp = ds_map_find_value(data, cooldown);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 4552FC86
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "cooldown"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, cooldown, tmp);
+ds_map_replace(global.tmpdata, cooldown, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -180,10 +180,10 @@ var tmp = ds_map_find_value(data, isprime);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 7B831308
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "isprime"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, isprime, tmp);
+ds_map_replace(global.tmpdata, isprime, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -197,10 +197,10 @@ var tmp = ds_map_find_value(data, isspy);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 52F625FF
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "isspy"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, isspy, tmp);
+ds_map_replace(global.tmpdata, isspy, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -214,10 +214,10 @@ var tmp = ds_map_find_value(data, isswarm);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 16501FE8
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "isswarm"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, isswarm, tmp);
+ds_map_replace(global.tmpdata, isswarm, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -231,10 +231,10 @@ var tmp = ds_map_find_value(data, canswarm);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 5FD01EE4
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "canswarm"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, canswarm, tmp);
+ds_map_replace(global.tmpdata, canswarm, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -248,10 +248,10 @@ var tmp = ds_map_find_value(data, ispiercing);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 64C49AFC
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "ispiercing"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, ispiercing, tmp);
+ds_map_replace(global.tmpdata, ispiercing, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -265,10 +265,10 @@ var tmp = ds_map_find_value(data, ispiercingblast);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 6C33AB79
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "ispiercingblast"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, ispiercingblast, tmp);
+ds_map_replace(global.tmpdata, ispiercingblast, tmp);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Get_Value
 /// @DnDVersion : 1
@@ -282,7 +282,7 @@ var tmp = ds_map_find_value(data, numcards);
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 581BEA22
-/// @DnDArgument : "var" "game.tmpdata"
+/// @DnDArgument : "var" "global.tmpdata"
 /// @DnDArgument : "key" "numcards"
 /// @DnDArgument : "value" "tmp"
-ds_map_replace(game.tmpdata, numcards, tmp);
+ds_map_replace(global.tmpdata, numcards, tmp);

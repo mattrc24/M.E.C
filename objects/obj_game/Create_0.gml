@@ -20,14 +20,14 @@ global.PlayerNumber = -1;
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
 /// @DnDHash : 1BFCD9AB
-/// @DnDArgument : "var" "data"
-data = ds_map_create();
+/// @DnDArgument : "var" "global.data"
+global.data = ds_map_create();
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
 /// @DnDHash : 0F31C65A
-/// @DnDArgument : "var" "tmpdata"
-tmpdata = ds_map_create();
+/// @DnDArgument : "var" "global.tmpdata"
+global.tmpdata = ds_map_create();
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Stack
 /// @DnDVersion : 1
@@ -38,19 +38,49 @@ cardsinhand = ds_stack_create();
 /// @DnDAction : YoYo Games.Data Structures.Create_Stack
 /// @DnDVersion : 1
 /// @DnDHash : 2EB84F22
-/// @DnDArgument : "var" "tempcardstack"
-tempcardstack = ds_stack_create();
-
-/// @DnDAction : YoYo Games.Data Structures.Create_Stack
-/// @DnDVersion : 1
-/// @DnDHash : 3A881D45
-/// @DnDArgument : "var" "deck"
-deck = ds_stack_create();
+/// @DnDArgument : "var" "global.tempcardstack"
+global.tempcardstack = ds_stack_create();
 
 /// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1
 /// @DnDHash : 04595358
 event_user(0);
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 0058B83E
+/// @DnDArgument : "var" "global.hand"
+global.hand = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 08ECF83F
+/// @DnDArgument : "var" "global.combatlane"
+global.combatlane = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 6B0CDBD0
+/// @DnDArgument : "var" "global.deck"
+global.deck = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 381835CD
+/// @DnDArgument : "var" "global.enemycombatlane"
+global.enemycombatlane = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 20351A22
+/// @DnDArgument : "var" "global.baselane"
+global.baselane = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 55C563F1
+/// @DnDArgument : "var" "global.desk"
+global.desk = ds_list_create();
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
