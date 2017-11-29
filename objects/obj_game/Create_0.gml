@@ -130,29 +130,6 @@ repeat(5)
 	ds_list_add(global.p1baselane, global.cardselected);
 }
 
-/// @DnDAction : YoYo Games.Loops.Repeat
-/// @DnDVersion : 1
-/// @DnDHash : 6F47B27A
-/// @DnDArgument : "times" "6"
-repeat(6)
-{
-	/// @DnDAction : YoYo Games.Data Structures.List_Add
-	/// @DnDVersion : 1
-	/// @DnDHash : 746909A1
-	/// @DnDParent : 6F47B27A
-	/// @DnDArgument : "var" "global.p2destroyed"
-	/// @DnDArgument : "value" "global.cardselected"
-	ds_list_add(global.p2destroyed, global.cardselected);
-
-	/// @DnDAction : YoYo Games.Data Structures.List_Add
-	/// @DnDVersion : 1
-	/// @DnDHash : 20BA72CC
-	/// @DnDParent : 6F47B27A
-	/// @DnDArgument : "var" "global.p1destroyed"
-	/// @DnDArgument : "value" "global.cardselected"
-	ds_list_add(global.p1destroyed, global.cardselected);
-}
-
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
 /// @DnDHash : 6B0CDBD0
@@ -164,6 +141,18 @@ global.p1deck = ds_list_create();
 /// @DnDHash : 55C563F1
 /// @DnDArgument : "var" "global.p2deck"
 global.p2deck = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 4629E0AC
+/// @DnDArgument : "var" "global.p1Respawning"
+global.p1Respawning = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 5BE2008B
+/// @DnDArgument : "var" "global.p2Respawning"
+global.p2Respawning = ds_list_create();
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1

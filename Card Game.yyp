@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "52923f47-b600-40a8-8e95-81c01fe3c739",
+            "Value": {
+                "id": "db4aaaab-5d57-4012-8f20-e730232e75d3",
+                "resourcePath": "scripts\\scr_send_destroyed_cards_to_deck\\scr_send_destroyed_cards_to_deck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5e081b11-6e66-459f-8065-7a2585c95c65",
             "Value": {
                 "id": "bbba8aca-63a8-4919-b079-53f056962370",
@@ -459,7 +467,8 @@
         "18d2074a-c56f-48d5-ad9a-b201e246dc83",
         "151b508f-43f1-4cd3-a0de-f240006d6e94",
         "9357a085-6178-4195-b45d-d6ffee0f6583",
-        "019e7426-e50b-43b1-86ed-7c6ec7ddcad6"
+        "019e7426-e50b-43b1-86ed-7c6ec7ddcad6",
+        "52923f47-b600-40a8-8e95-81c01fe3c739"
     ],
     "tutorial": ""
 }
