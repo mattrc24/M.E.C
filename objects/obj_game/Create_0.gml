@@ -21,6 +21,12 @@ global.p2_hp = 20;
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
+/// @DnDHash : 72DFEB63
+/// @DnDArgument : "var" "global.nullCard"
+global.nullCard = ds_map_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_Map
+/// @DnDVersion : 1
 /// @DnDHash : 7229F93C
 /// @DnDArgument : "var" "global.cardselected"
 global.cardselected = ds_map_create();
