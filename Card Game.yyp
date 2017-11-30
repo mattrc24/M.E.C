@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0f5ce855-e90d-4c7e-8fd1-681e2a6f8edf",
+            "Value": {
+                "id": "c630f382-31c4-4744-92d1-5dc6e19d72ef",
+                "resourcePath": "objects\\obj_Eclipse_card\\obj_Eclipse_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "12f44cc5-c9a7-4125-a076-579ccd978d34",
             "Value": {
                 "id": "809460a0-ac51-4b3d-bbdb-64060b8b1670",
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "99cd3c77-e99a-42c0-b5eb-0ab0844e6dcf",
+            "Value": {
+                "id": "758813f0-0b94-44dd-a09e-46982b5fd4b0",
+                "resourcePath": "objects\\obj_card\\obj_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a0fb41ef-7c13-471f-af4b-6bdcde7d69df",
             "Value": {
                 "id": "42d9b1c4-8723-4d23-bc31-77a619a09849",
@@ -492,6 +508,14 @@
                 "id": "e16bec2d-9a59-473b-adab-1aba8bdec60d",
                 "resourcePath": "sprites\\spr_L_gunner\\spr_L_gunner.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c070d1f0-ad32-48b8-be47-76da820495b3",
+            "Value": {
+                "id": "04980c5e-5fd2-40bf-8aa4-88241f27754d",
+                "resourcePath": "objects\\obj_Lokyst_card\\obj_Lokyst_card.yy",
+                "resourceType": "GMObject"
             }
         },
         {
