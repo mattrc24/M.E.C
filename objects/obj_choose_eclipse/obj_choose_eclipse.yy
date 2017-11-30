@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_choose_eclipse",
     "eventList": [
-        
+        {
+            "id": "cd570100-6ee6-4a78-8818-055465879927",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "85d25441-0814-4b9b-b9f0-c843eba27cc3"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
