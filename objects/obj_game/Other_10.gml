@@ -1,9 +1,10 @@
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 517F73F0
-/// @DnDArgument : "objectid" "card"
+/// @DnDDisabled : 1
+/// @DnDArgument : "objectid" "trash_card"
 /// @DnDSaveInfo : "objectid" "cb8ec753-34e2-472b-aa99-233602d14b5c"
-instance_create_layer(0, 0, "Instances", card);
+
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1

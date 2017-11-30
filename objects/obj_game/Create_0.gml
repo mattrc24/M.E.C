@@ -153,10 +153,3 @@ global.p1Respawning = ds_list_create();
 /// @DnDHash : 5BE2008B
 /// @DnDArgument : "var" "global.p2Respawning"
 global.p2Respawning = ds_list_create();
-
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-/// @DnDVersion : 1
-/// @DnDHash : 6586B018
-/// @DnDArgument : "room" "choosedecks"
-/// @DnDSaveInfo : "room" "3ef9696d-d5f8-47de-91c4-22fc1496b628"
-room_goto(choosedecks);
