@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "39cb6556-2227-4e89-bec4-992a88698f95",
+            "Value": {
+                "id": "fc8845ef-3739-42e9-8663-c82315f867b8",
+                "resourcePath": "sprites\\sprite9\\sprite9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a72524b-33fe-45f9-8b07-756d2d66781f",
             "Value": {
                 "id": "a4f6ad7f-679e-443c-bdc8-fcef0b09460a",
@@ -148,6 +156,14 @@
                 "id": "4ae48a23-e0f8-41c5-9322-8e5871dbc889",
                 "resourcePath": "views\\481630bd-02a6-4421-9ac7-58ec2fc23668.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "505fbbac-0df6-4a88-9dc7-9a3d88aab448",
+            "Value": {
+                "id": "7e7bfeb2-edb6-4192-8635-6b19a18487a1",
+                "resourcePath": "objects\\obj_singlePlayer\\obj_singlePlayer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -354,7 +370,7 @@
             "Key": "c6d8d590-bfec-463b-b42e-9fbd2c9c04b5",
             "Value": {
                 "id": "b81e05fb-053b-4711-9889-420821093b0e",
-                "resourcePath": "rooms\\player1destroyed\\player1destroyed.yy",
+                "resourcePath": "rooms\\player1Respawn\\player1Respawn.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -431,6 +447,14 @@
             }
         },
         {
+            "Key": "e8192542-9e82-4e97-8be5-a86e4695d003",
+            "Value": {
+                "id": "80e71e40-da89-4c8c-b87a-4bcf3ac2d050",
+                "resourcePath": "scripts\\scr_add_cards_to_hand\\scr_add_cards_to_hand.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f07d41af-7db6-45b6-8b08-4673892ec96c",
             "Value": {
                 "id": "9875e84d-a4ed-42cf-82bb-9c9fd7919b55",
@@ -458,7 +482,7 @@
             "Key": "f453d3ff-7ab7-4b39-80ba-3842e26c2468",
             "Value": {
                 "id": "c1583e7c-acd2-4336-9032-6c52afea87e1",
-                "resourcePath": "rooms\\player2destroyed\\player2destroyed.yy",
+                "resourcePath": "rooms\\player2Respawn\\player2Respawn.yy",
                 "resourceType": "GMRoom"
             }
         }
@@ -468,7 +492,8 @@
         "151b508f-43f1-4cd3-a0de-f240006d6e94",
         "9357a085-6178-4195-b45d-d6ffee0f6583",
         "019e7426-e50b-43b1-86ed-7c6ec7ddcad6",
-        "52923f47-b600-40a8-8e95-81c01fe3c739"
+        "52923f47-b600-40a8-8e95-81c01fe3c739",
+        "e8192542-9e82-4e97-8be5-a86e4695d003"
     ],
     "tutorial": ""
 }
