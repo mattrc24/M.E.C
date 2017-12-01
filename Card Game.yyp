@@ -378,7 +378,7 @@
             "Key": "7f560f30-13b9-4c6d-a8fa-812ba4eddedd",
             "Value": {
                 "id": "c415d2ab-a06d-468c-94ce-07739ad13a8e",
-                "resourcePath": "sprites\\spr_card_empty\\spr_card_empty.yy",
+                "resourcePath": "sprites\\spr_empty\\spr_empty.yy",
                 "resourceType": "GMSprite"
             }
         },
