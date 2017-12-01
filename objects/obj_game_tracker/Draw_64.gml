@@ -36,6 +36,17 @@ if(global.PlayerNumber == 1)
 	/// @DnDArgument : "caption" ""Tech: ""
 	/// @DnDArgument : "var" "global.p1tech"
 	draw_text(x + 0, y + 20, string("Tech: ") + string(global.p1tech));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 73394674
+	/// @DnDParent : 7F1329DF
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "40"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "caption" ""Turn: ""
+	/// @DnDArgument : "var" "global.turnnumber"
+	draw_text(x + 0, y + 40, string("Turn: ") + string(global.turnnumber));
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -74,4 +85,15 @@ else
 	/// @DnDArgument : "caption" ""Tech: ""
 	/// @DnDArgument : "var" "global.p2tech"
 	draw_text(x + 0, y + 20, string("Tech: ") + string(global.p2tech));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 7186B959
+	/// @DnDParent : 684C1C70
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "40"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "caption" ""Turn: ""
+	/// @DnDArgument : "var" "global.turnnumber"
+	draw_text(x + 0, y + 40, string("Turn: ") + string(global.turnnumber));
 }

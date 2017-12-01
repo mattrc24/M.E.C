@@ -1,11 +1,12 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 077694FD
+/// @DnDDisabled : 1
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Name: ""
-/// @DnDArgument : "var" "ds_map_find_value(display_values, "name")"
-draw_text(x + 0, y + 0, string("Name: ") + string(ds_map_find_value(display_values, "name")));
+/// @DnDArgument : "var" "string(ds_map_find_value(display_values, "name"))"
+
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
