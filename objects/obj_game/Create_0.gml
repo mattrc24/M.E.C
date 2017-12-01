@@ -1,24 +1,30 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6FCE61FD
-/// @DnDInput : 6
+/// @DnDInput : 8
 /// @DnDArgument : "value_1" "1"
 /// @DnDArgument : "value_2" "1"
 /// @DnDArgument : "value_3" "10"
 /// @DnDArgument : "value_4" "20"
 /// @DnDArgument : "value_5" "20"
+/// @DnDArgument : "value_6" ""none""
+/// @DnDArgument : "value_7" ""none""
 /// @DnDArgument : "var" "gamephase"
 /// @DnDArgument : "var_1" "playercanmovecard"
 /// @DnDArgument : "var_2" "PlayerNumber"
 /// @DnDArgument : "var_3" "turnnumber"
 /// @DnDArgument : "var_4" "p1_hp"
 /// @DnDArgument : "var_5" "p2_hp"
+/// @DnDArgument : "var_6" "p1deckChoice"
+/// @DnDArgument : "var_7" "p2deckChoice"
 global.gamephase = 0;
 global.playercanmovecard = 1;
 global.PlayerNumber = 1;
 global.turnnumber = 10;
 global.p1_hp = 20;
 global.p2_hp = 20;
+global.p1deckChoice = "none";
+global.p2deckChoice = "none";
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
