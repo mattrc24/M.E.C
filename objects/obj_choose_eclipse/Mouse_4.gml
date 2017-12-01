@@ -33,4 +33,12 @@ if(global.PlayerNumber == 1)
 	/// @DnDArgument : "room" "player1"
 	/// @DnDSaveInfo : "room" "8b424ee2-f381-497b-a5c5-50915c446210"
 	room_goto(player1);
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 0A1CF54E
+	/// @DnDParent : 6F80856C
+	/// @DnDArgument : "code" "scr_draw_cards(10, 1);$(13_10)scr_draw_cards(10, 2);"
+	scr_draw_cards(10, 1);
+	scr_draw_cards(10, 2);
 }

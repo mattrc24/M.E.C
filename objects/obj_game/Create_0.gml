@@ -118,6 +118,22 @@ repeat(10)
 	/// @DnDArgument : "var" "global.p2combatlane"
 	/// @DnDArgument : "value" "global.cardselected"
 	ds_list_add(global.p2combatlane, global.cardselected);
+
+	/// @DnDAction : YoYo Games.Data Structures.List_Add
+	/// @DnDVersion : 1
+	/// @DnDHash : 0BAEBD55
+	/// @DnDParent : 1B0E56BF
+	/// @DnDArgument : "var" "global.p1hand"
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p1hand, global.nullCard);
+
+	/// @DnDAction : YoYo Games.Data Structures.List_Add
+	/// @DnDVersion : 1
+	/// @DnDHash : 1E668EAD
+	/// @DnDParent : 1B0E56BF
+	/// @DnDArgument : "var" "global.p2hand"
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p2hand, global.nullCard);
 }
 
 /// @DnDAction : YoYo Games.Loops.Repeat
