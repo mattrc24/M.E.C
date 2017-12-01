@@ -7,7 +7,12 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "0d2ff6e4-5454-428e-9c96-1664093c3b22",
+        "93894986-85bb-4b8f-8e1d-9f854f2ecaf2",
+        "654d13a5-9749-4ad4-b73d-2de839d33d9c",
+        "dc92aef2-e6b0-4cd1-a810-a00280025f5f",
+        "b93faca4-c81e-4292-9212-fc268d68c96c",
+        "8cc1dc35-8639-4381-b5a7-d91e205fd3fc"
     ],
     "IsDnD": true,
     "layers": [
@@ -25,7 +30,12 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+                {"name": "inst_385B3FA9","id": "0d2ff6e4-5454-428e-9c96-1664093c3b22","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_385B3FA9.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_385B3FA9","objId": "8c8fa896-8a27-4ec8-bc68-6ff9e2b07dc2","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 96},
+                {"name": "inst_2A404FC4","id": "93894986-85bb-4b8f-8e1d-9f854f2ecaf2","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_2A404FC4.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2A404FC4","objId": "8c8fa896-8a27-4ec8-bc68-6ff9e2b07dc2","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 416,"y": 96},
+                {"name": "inst_300748B6","id": "654d13a5-9749-4ad4-b73d-2de839d33d9c","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_300748B6.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_300748B6","objId": "8c8fa896-8a27-4ec8-bc68-6ff9e2b07dc2","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 736,"y": 96},
+                {"name": "inst_466B69AE","id": "dc92aef2-e6b0-4cd1-a810-a00280025f5f","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_466B69AE.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_466B69AE","objId": "8c8fa896-8a27-4ec8-bc68-6ff9e2b07dc2","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 96,"y": 448},
+                {"name": "inst_1BFD38E","id": "b93faca4-c81e-4292-9212-fc268d68c96c","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_1BFD38E.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1BFD38E","objId": "8c8fa896-8a27-4ec8-bc68-6ff9e2b07dc2","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 416,"y": 448},
+                {"name": "inst_6ACD9146","id": "8cc1dc35-8639-4381-b5a7-d91e205fd3fc","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_6ACD9146.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6ACD9146","objId": "8c8fa896-8a27-4ec8-bc68-6ff9e2b07dc2","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 736,"y": 448}
             ],
             "layers": [
 
@@ -43,7 +53,7 @@
             "id": "3a1cef84-b925-4664-910b-4746b3653aa4",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4284482659 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,

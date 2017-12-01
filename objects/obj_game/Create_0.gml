@@ -182,3 +182,26 @@ global.p1Respawning = ds_list_create();
 /// @DnDHash : 5BE2008B
 /// @DnDArgument : "var" "global.p2Respawning"
 global.p2Respawning = ds_list_create();
+
+/// @DnDAction : YoYo Games.Loops.Repeat
+/// @DnDVersion : 1
+/// @DnDHash : 56369E62
+/// @DnDArgument : "times" "6"
+repeat(6)
+{
+	/// @DnDAction : YoYo Games.Data Structures.List_Add
+	/// @DnDVersion : 1
+	/// @DnDHash : 1FC52175
+	/// @DnDParent : 56369E62
+	/// @DnDArgument : "var" "global.p1Respawning"
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p1Respawning, global.nullCard);
+
+	/// @DnDAction : YoYo Games.Data Structures.List_Add
+	/// @DnDVersion : 1
+	/// @DnDHash : 329552C7
+	/// @DnDParent : 56369E62
+	/// @DnDArgument : "var" "global.p2Respawning"
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p2Respawning, global.nullCard);
+}

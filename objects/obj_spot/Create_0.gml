@@ -21,7 +21,7 @@ display_values = ds_map_create();
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 5E152B07
-/// @DnDInput : 11
+/// @DnDInput : 12
 /// @DnDArgument : "var" "display_values"
 /// @DnDArgument : "key" ""sprite""
 /// @DnDArgument : "value" ""empty""
@@ -45,6 +45,8 @@ display_values = ds_map_create();
 /// @DnDArgument : "value_9" "1"
 /// @DnDArgument : "key_10" ""current_cooldown""
 /// @DnDArgument : "value_10" "0"
+/// @DnDArgument : "key_11" ""name""
+/// @DnDArgument : "value_11" ""empty""
 ds_map_replace(display_values, "sprite", "empty");
 ds_map_replace(display_values, "owner_number", -1);
 ds_map_replace(display_values, "atk", 0);
@@ -56,3 +58,4 @@ ds_map_replace(display_values, "spawngen", 0);
 ds_map_replace(display_values, "techgen", 0);
 ds_map_replace(display_values, "cooldown", 1);
 ds_map_replace(display_values, "current_cooldown", 0);
+ds_map_replace(display_values, "name", "empty");

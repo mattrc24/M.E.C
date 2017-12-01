@@ -4,9 +4,9 @@
 /// @DnDArgument : "x" "12"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Name: " "
+/// @DnDArgument : "caption" ""Name: ""
 /// @DnDArgument : "var" "ds_map_find_value(display_values, "name")"
-draw_text(x + 12, y + 0, string("Name: " ) + string(ds_map_find_value(display_values, "name")));
+draw_text(x + 12, y + 0, string("Name: ") + string(ds_map_find_value(display_values, "name")));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
@@ -15,9 +15,9 @@ draw_text(x + 12, y + 0, string("Name: " ) + string(ds_map_find_value(display_va
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "20"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Attack: " "
+/// @DnDArgument : "caption" ""Attack: ""
 /// @DnDArgument : "var" "ds_map_find_value(display_values, "atk")"
-draw_text(x + 12, y + 20, string("Attack: " ) + string(ds_map_find_value(display_values, "atk")));
+draw_text(x + 12, y + 20, string("Attack: ") + string(ds_map_find_value(display_values, "atk")));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

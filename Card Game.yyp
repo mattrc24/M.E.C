@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "565c459a-ac9c-4093-a7d9-7bfd7d8871c4",
+            "Value": {
+                "id": "bd0fbf27-ac41-43c4-ba65-c872348cdcdc",
+                "resourcePath": "rooms\\player2Respawn\\player2Respawn.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5b4ea9be-6ab0-44fa-bfad-39f4032f3703",
             "Value": {
                 "id": "13b4c03c-f552-4902-8989-9cb3726e9578",
@@ -764,14 +772,6 @@
                 "id": "201a8d44-2084-4c00-87ed-70b62805cd17",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f453d3ff-7ab7-4b39-80ba-3842e26c2468",
-            "Value": {
-                "id": "c1583e7c-acd2-4336-9032-6c52afea87e1",
-                "resourcePath": "rooms\\player2Respawn\\player2Respawn.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
