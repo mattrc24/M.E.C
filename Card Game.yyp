@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "22f1bd86-e0d2-4802-85cd-65d67bebfc84",
+            "Value": {
+                "id": "1a3d9405-2138-4286-bd02-f8a520cfefaf",
+                "resourcePath": "sprites\\spr_switch_player\\spr_switch_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23dfc475-0d04-478b-81e8-01af16f4be8d",
             "Value": {
                 "id": "c146f4e5-e3f8-4eae-9688-fe6a7d4b3398",
@@ -479,6 +487,14 @@
             }
         },
         {
+            "Key": "9d32f471-e3f6-46d0-af0a-3915e70f4e7c",
+            "Value": {
+                "id": "e1e9d3d7-9735-4487-82e6-b3f732fa7130",
+                "resourcePath": "objects\\switchPlayer\\switchPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9e98c692-f0bd-4cf7-affd-6869d85a628e",
             "Value": {
                 "id": "f30266da-5ca1-4050-9626-c7b2b13f9284",
@@ -631,6 +647,14 @@
             }
         },
         {
+            "Key": "d245349c-68d8-4ee6-9086-f064e49ab106",
+            "Value": {
+                "id": "d1e0d51e-9799-4101-a97e-0eaf33f2e2e8",
+                "resourcePath": "scripts\\scr_place_card\\scr_place_card.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d7000559-7559-446e-b543-682df8490e43",
             "Value": {
                 "id": "fcfe5d15-ab65-4dcc-b129-e9187726dec1",
@@ -750,7 +774,8 @@
         "019e7426-e50b-43b1-86ed-7c6ec7ddcad6",
         "52923f47-b600-40a8-8e95-81c01fe3c739",
         "e8192542-9e82-4e97-8be5-a86e4695d003",
-        "9e98c692-f0bd-4cf7-affd-6869d85a628e"
+        "9e98c692-f0bd-4cf7-affd-6869d85a628e",
+        "d245349c-68d8-4ee6-9086-f064e49ab106"
     ],
     "tutorial": ""
 }

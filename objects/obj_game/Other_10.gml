@@ -19,8 +19,8 @@ ds_map_replace(global.cardselected, "numcards", 0);
 /// @DnDHash : 4859D351
 /// @DnDArgument : "var" "global.cardselected"
 /// @DnDArgument : "key" ""sprite""
-/// @DnDArgument : "value" ""spr_empty""
-ds_map_replace(global.cardselected, "sprite", "spr_empty");
+/// @DnDArgument : "value" "spr_empty"
+ds_map_replace(global.cardselected, "sprite", spr_empty);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
@@ -163,8 +163,8 @@ ds_map_replace(global.nullCard, "numcards", 0);
 /// @DnDHash : 25EFB009
 /// @DnDArgument : "var" "global.nullCard"
 /// @DnDArgument : "key" ""sprite""
-/// @DnDArgument : "value" ""spr_empty""
-ds_map_replace(global.nullCard, "sprite", "spr_empty");
+/// @DnDArgument : "value" "spr_empty"
+ds_map_replace(global.nullCard, "sprite", spr_empty);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
