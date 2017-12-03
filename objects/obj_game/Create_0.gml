@@ -30,23 +30,23 @@ global.p2deckChoice = "none";
 /// @DnDVersion : 1
 /// @DnDHash : 1A68B439
 /// @DnDInput : 2
-/// @DnDArgument : "value" "10"
-/// @DnDArgument : "value_1" "20"
+/// @DnDArgument : "value" "15"
+/// @DnDArgument : "value_1" "25"
 /// @DnDArgument : "var" "p1tech"
 /// @DnDArgument : "var_1" "p1spawn"
-global.p1tech = 10;
-global.p1spawn = 20;
+global.p1tech = 15;
+global.p1spawn = 25;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 7925A222
 /// @DnDInput : 2
-/// @DnDArgument : "value" "10"
-/// @DnDArgument : "value_1" "20"
+/// @DnDArgument : "value" "15"
+/// @DnDArgument : "value_1" "25"
 /// @DnDArgument : "var" "p2tech"
 /// @DnDArgument : "var_1" "p2spawn"
-global.p2tech = 10;
-global.p2spawn = 20;
+global.p2tech = 15;
+global.p2spawn = 25;
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Map
 /// @DnDVersion : 1
