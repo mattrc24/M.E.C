@@ -73,6 +73,18 @@ event_user(0);
 
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
+/// @DnDHash : 7D238848
+/// @DnDArgument : "var" "global.p1previous"
+global.p1previous = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
+/// @DnDHash : 1CC5A77F
+/// @DnDArgument : "var" "global.p2previous"
+global.p2previous = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.Create_List
+/// @DnDVersion : 1
 /// @DnDHash : 0BE20413
 /// @DnDArgument : "var" "global.p1destroyed"
 global.p1destroyed = ds_list_create();
@@ -82,6 +94,15 @@ global.p1destroyed = ds_list_create();
 /// @DnDHash : 453AA0DD
 /// @DnDArgument : "var" "global.p2destroyed"
 global.p2destroyed = ds_list_create();
+
+/// @DnDAction : YoYo Games.Data Structures.DS_Clear
+/// @DnDVersion : 1
+/// @DnDHash : 0006ABD9
+/// @DnDInput : 2
+/// @DnDArgument : "var" "global.p1destroyed"
+/// @DnDArgument : "var_1" "global.p2destroyed"
+ds_list_clear(global.p1destroyed);
+ds_list_clear(global.p2destroyed);
 
 /// @DnDAction : YoYo Games.Data Structures.Create_List
 /// @DnDVersion : 1
@@ -130,16 +151,16 @@ repeat(10)
 	/// @DnDHash : 1ABE12B2
 	/// @DnDParent : 1B0E56BF
 	/// @DnDArgument : "var" "global.p1combatlane"
-	/// @DnDArgument : "value" "global.cardselected"
-	ds_list_add(global.p1combatlane, global.cardselected);
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p1combatlane, global.nullCard);
 
 	/// @DnDAction : YoYo Games.Data Structures.List_Add
 	/// @DnDVersion : 1
 	/// @DnDHash : 026C7A03
 	/// @DnDParent : 1B0E56BF
 	/// @DnDArgument : "var" "global.p2combatlane"
-	/// @DnDArgument : "value" "global.cardselected"
-	ds_list_add(global.p2combatlane, global.cardselected);
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p2combatlane, global.nullCard);
 
 	/// @DnDAction : YoYo Games.Data Structures.List_Add
 	/// @DnDVersion : 1
@@ -156,6 +177,22 @@ repeat(10)
 	/// @DnDArgument : "var" "global.p2hand"
 	/// @DnDArgument : "value" "global.nullCard"
 	ds_list_add(global.p2hand, global.nullCard);
+
+	/// @DnDAction : YoYo Games.Data Structures.List_Add
+	/// @DnDVersion : 1
+	/// @DnDHash : 74E370BE
+	/// @DnDParent : 1B0E56BF
+	/// @DnDArgument : "var" "global.p1previous"
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p1previous, global.nullCard);
+
+	/// @DnDAction : YoYo Games.Data Structures.List_Add
+	/// @DnDVersion : 1
+	/// @DnDHash : 080ED8F8
+	/// @DnDParent : 1B0E56BF
+	/// @DnDArgument : "var" "global.p2previous"
+	/// @DnDArgument : "value" "global.nullCard"
+	ds_list_add(global.p2previous, global.nullCard);
 }
 
 /// @DnDAction : YoYo Games.Loops.Repeat

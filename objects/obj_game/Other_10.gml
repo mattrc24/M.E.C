@@ -106,9 +106,9 @@ ds_map_replace(global.cardselected, "cooldown", -1);
 /// @DnDVersion : 1
 /// @DnDHash : 74E0807A
 /// @DnDArgument : "var" "global.cardselected"
-/// @DnDArgument : "key" ""current_cooldown""
+/// @DnDArgument : "key" ""maxcooldown""
 /// @DnDArgument : "value" "-1"
-ds_map_replace(global.cardselected, "current_cooldown", -1);
+ds_map_replace(global.cardselected, "maxcooldown", -1);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
@@ -250,9 +250,9 @@ ds_map_replace(global.nullCard, "cooldown", -1);
 /// @DnDVersion : 1
 /// @DnDHash : 07DB48B2
 /// @DnDArgument : "var" "global.nullCard"
-/// @DnDArgument : "key" ""current cooldown""
+/// @DnDArgument : "key" ""maxcooldown""
 /// @DnDArgument : "value" "-1"
-ds_map_replace(global.nullCard, "current cooldown", -1);
+ds_map_replace(global.nullCard, "maxcooldown", -1);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1
@@ -394,9 +394,9 @@ ds_map_replace(global.cardselected, "cooldown", -1);
 /// @DnDVersion : 1
 /// @DnDHash : 4B1AAAA5
 /// @DnDArgument : "var" "global.cardselected"
-/// @DnDArgument : "key" ""current_cooldown""
+/// @DnDArgument : "key" ""maxcooldown""
 /// @DnDArgument : "value" "-1"
-ds_map_replace(global.cardselected, "current_cooldown", -1);
+ds_map_replace(global.cardselected, "maxcooldown", -1);
 
 /// @DnDAction : YoYo Games.Data Structures.Map_Set_Value
 /// @DnDVersion : 1

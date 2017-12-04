@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "a0a60850-9e81-4406-94ee-fb8386187975",
+            "Value": {
+                "id": "55c8773a-7027-4d51-9fb0-6cfe898c2f7c",
+                "resourcePath": "scripts\\scr_get_enemy_combat_lane\\scr_get_enemy_combat_lane.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a1be36f8-4557-47c3-ada3-d04afed2745f",
             "Value": {
                 "id": "525a8ed4-4316-418e-9296-db7734c170cd",
@@ -812,7 +820,8 @@
         "3496a23e-a7a2-4c1e-8ad0-c6d8d65d01d5",
         "7dbb88f9-3c67-4b4a-ba5c-223488e3d7d1",
         "fa1ae63f-d2b0-4a7d-bd7d-08b8d7679aa0",
-        "cf787c97-e2b6-44d0-9c6e-1864ac4fe270"
+        "cf787c97-e2b6-44d0-9c6e-1864ac4fe270",
+        "a0a60850-9e81-4406-94ee-fb8386187975"
     ],
     "tutorial": ""
 }
