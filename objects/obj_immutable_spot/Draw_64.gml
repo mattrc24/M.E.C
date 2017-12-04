@@ -1,21 +1,14 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 469EE3B8
-/// @DnDDisabled : 1
-/// @DnDArgument : "code" "tempMap = ds_map_create();$(13_10)tempMap = display_values;$(13_10)var testattack = 0;$(13_10)testattack = ds_map_find_value(tempMap, "atk");"
-
-
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 2531DD88
+/// @DnDHash : 4EFDD25E
 /// @DnDArgument : "expr" "is_undefined(display_values)"
 /// @DnDArgument : "not" "1"
 if(!(is_undefined(display_values)))
 {
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 34239F3B
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 7EBCDB50
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "code" "tempMap = ds_map_create();$(13_10)tempMap = display_values;$(13_10)//var testattack = 0;$(13_10)//testattack = ds_map_find_value(tempMap, "atk");"
 	tempMap = ds_map_create();
 	tempMap = display_values;
@@ -24,9 +17,9 @@ if(!(is_undefined(display_values)))
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 12E8EC4F
+	/// @DnDHash : 79BF9125
 	/// @DnDInput : 7
-	/// @DnDParent : 2531DD88
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "expr" "ds_map_find_value(display_values, "atk")"
 	/// @DnDArgument : "expr_1" "ds_map_find_value(display_values, "hp")"
 	/// @DnDArgument : "expr_2" "ds_map_find_value(display_values, "spawngen")"
@@ -49,99 +42,110 @@ if(!(is_undefined(display_values)))
 	tc = ds_map_find_value(display_values, "techcost");
 	cd = ds_map_find_value(display_values, "cooldown");
 
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 4FA7FCD2
+	/// @DnDParent : 4EFDD25E
+	/// @DnDArgument : "color" "$FFFF00FF"
+	draw_set_colour($FFFF00FF & $ffffff);
+	draw_set_alpha(($FFFF00FF >> 24) / $ff);
+
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 0678D70A
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 08DAC219
+	/// @DnDDisabled : 1
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "caption" ""Name: ""
 	/// @DnDArgument : "var" "string(ds_map_find_value(display_values, "name"))"
-	draw_text(x + 0, y + 0, string("Name: ") + string(string(ds_map_find_value(display_values, "name"))));
+
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 5B2063E1
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 2F9AED45
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "20"
+	/// @DnDArgument : "y" "20 + 100"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "caption" ""Attack: ""
+	/// @DnDArgument : "caption" ""Atk: ""
 	/// @DnDArgument : "var" "attack"
-	draw_text(x + 0, y + 20, string("Attack: ") + string(attack));
+	draw_text(x + 0, y + 20 + 100, string("Atk: ") + string(attack));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 3D509DE4
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 70CA269E
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "40"
+	/// @DnDArgument : "y" "40 + 100"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "caption" ""Health: ""
+	/// @DnDArgument : "caption" ""HP: ""
 	/// @DnDArgument : "var" "hp"
-	draw_text(x + 0, y + 40, string("Health: ") + string(hp));
+	draw_text(x + 0, y + 40 + 100, string("HP: ") + string(hp));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 41551BB9
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 6EFF2BA4
+	/// @DnDDisabled : 1
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "60"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "caption" ""SG:  ""
 	/// @DnDArgument : "var" "sg"
-	draw_text(x + 0, y + 60, string("SG:  ") + string(sg));
+
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 2A28B3A4
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 2F0CFA51
+	/// @DnDDisabled : 1
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x" "75"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "60"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "caption" ""TG:  ""
 	/// @DnDArgument : "var" "tg"
-	draw_text(x + 75, y + 60, string("TG:  ") + string(tg));
+
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 224B88CA
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 5BCCEF2A
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "80"
+	/// @DnDArgument : "y" "160"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "caption" ""SCost: ""
+	/// @DnDArgument : "caption" ""S:""
 	/// @DnDArgument : "var" "sc"
-	draw_text(x + 0, y + 80, string("SCost: ") + string(sc));
+	draw_text(x + 0, y + 160, string("S:") + string(sc));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 438359BB
-	/// @DnDParent : 2531DD88
-	/// @DnDArgument : "x" "75"
+	/// @DnDHash : 50571BB4
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "80"
+	/// @DnDArgument : "y" "180"
 	/// @DnDArgument : "y_relative" "1"
-	/// @DnDArgument : "caption" ""TCost: " "
+	/// @DnDArgument : "caption" ""T: " "
 	/// @DnDArgument : "var" "tc"
-	draw_text(x + 75, y + 80, string("TCost: " ) + string(tc));
+	draw_text(x + 0, y + 180, string("T: " ) + string(tc));
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value
 	/// @DnDVersion : 1
-	/// @DnDHash : 211E0972
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 14408A47
+	/// @DnDDisabled : 1
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "100"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "caption" ""Cooldown: ""
 	/// @DnDArgument : "var" "cd"
-	draw_text(x + 0, y + 100, string("Cooldown: ") + string(cd));
+
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 27BDF209
-	/// @DnDParent : 2531DD88
+	/// @DnDHash : 081BAFAA
+	/// @DnDParent : 4EFDD25E
 	/// @DnDArgument : "spriteind" "ds_map_find_value(display_values, "sprite")"
 	sprite_index = ds_map_find_value(display_values, "sprite");
 	image_index = 0;
